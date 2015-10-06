@@ -5,7 +5,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".main_calc"
-    android:background="#2d2d37"
+    android:background="@color/backgroundColor"
     android:textAlignment="textEnd">
 
     <Button
@@ -220,5 +220,16 @@
         android:background="@color/colorPrimary"
         android:textColor="@color/colorLight"
         android:onClick="addChar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="about"
+        android:id="@+id/about_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/button13"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorLight"
+        android:onClick="showAbout" />
 
 </RelativeLayout>

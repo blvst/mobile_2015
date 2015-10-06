@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".LandscapeActivity" >
         </activity>
+        <activity android:name=".AboutInfo" >
+        </activity>
     </application>
 
 </manifest>

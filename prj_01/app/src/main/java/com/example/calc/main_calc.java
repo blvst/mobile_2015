@@ -1,5 +1,6 @@
 package com.example.calc;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -70,6 +71,11 @@ public class main_calc extends AppCompatActivity {
 
             operation = "";
         }
+    }
+
+    public void showAbout ( View v ) {
+        Intent intent = new Intent(main_calc.this, AboutInfo.class);
+        startActivity(intent);
     }
 
 
